@@ -15,11 +15,13 @@ A Simple birthday app build using node.js, express.js and mongoose.
 - Params required : name, dob, relationship
 
 Ex:
+    
     POST localhost:portno/birthday
+    
     params {
         'name': 'value',
         'dob': 'value',
-        'relionship': 'value'
+        'relationship': 'value'
         }
 
 2. GET BIRTHDAY ROUTE
@@ -28,6 +30,7 @@ Ex:
 - In this route sorting is applied on name, dob and relationship i.e. how you want to get the data in asc or desc and if no params is passed it is return the default order.
 
 Ex: 
+    
     1.  GET localhost:portno/birthday
         OUTPUT: RETURNS all the person's birthday in default order
 
